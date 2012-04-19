@@ -4,4 +4,5 @@ Installation
 
 Create symlinks:
 
+    ln -s ~/dotfiles/bashrc ~/.bashrc
 
