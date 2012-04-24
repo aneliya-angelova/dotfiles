@@ -2,7 +2,8 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-" General appearance settings
+" General appearance
+set listchars=tab:▸\ ,eol:¬
 set number
 syntax on
 colorscheme solarized
@@ -13,6 +14,12 @@ if has('gui_running')
 else
     set background=dark
 endif
+
+" Indendation
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 
 " Enable file-type detection
 if has("autocmd")

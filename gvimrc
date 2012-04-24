@@ -2,5 +2,5 @@
 " http://stackoverflow.com/questions/4193654/using-vim-warning-style-in-gvim
 set guioptions+=c
 
-" General appearance settings
+" General appearance
 set guifont=AndaleMono:h14
