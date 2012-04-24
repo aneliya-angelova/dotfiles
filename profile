@@ -23,3 +23,6 @@ export JAVA_HOME=/Library/Java/Home
 
 # increase the maven heap
 export MAVEN_OPTS=-Xmx1024m
+
+# colorize the terminal
+export CLICOLOR=1;
