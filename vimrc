@@ -1,11 +1,12 @@
 " Activate pathogen plugin
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
 
 " General appearance
 set listchars=tab:▸\ ,eol:¬
 set number
 syntax on
+set hlsearch
 colorscheme solarized
 
 " Use different backgrounds for terminal and GUI modes
