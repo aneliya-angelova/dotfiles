@@ -26,3 +26,4 @@ export MAVEN_OPTS=-Xmx1024m
 
 # colorize the terminal
 export CLICOLOR=1;
+export TERM="xterm-256color"
