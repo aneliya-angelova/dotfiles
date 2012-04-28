@@ -33,3 +33,6 @@ set go-=T
 " Do not use modal alert dialogs! (Prefer Vim style prompt.)
 " http://stackoverflow.com/questions/4193654/using-vim-warning-style-in-gvim
 set guioptions+=c
+
+" Indicate the end boundary of a change
+set cpoptions+=$
