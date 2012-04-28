@@ -1,3 +1,5 @@
+let mapleader = ","
+
 " Activate pathogen plugin
 call pathogen#infect()
 call pathogen#helptags()
@@ -10,13 +12,7 @@ set number
 syntax on
 set hlsearch
 colorscheme solarized
-
-" Use different backgrounds for terminal and GUI modes
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
+set background=dark
 
 " Indendation
 set tabstop=4
