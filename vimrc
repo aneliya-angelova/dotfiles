@@ -3,6 +3,8 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " General appearance
+set showcmd
+set laststatus=2
 set listchars=tab:▸\ ,eol:¬
 set number
 syntax on
@@ -36,3 +38,7 @@ set guioptions+=c
 
 " Indicate the end boundary of a change
 set cpoptions+=$
+
+" Disable swapfile and backup
+set nobackup
+set noswapfile
