@@ -3,7 +3,7 @@
 set guioptions+=c
 
 " General appearance
-set guifont=AndaleMono:h14
+set guifont=LetterGothicMT:h14
 
 " Don't use Aqua scrollbars
 set guioptions-=rL
