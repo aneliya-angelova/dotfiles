@@ -38,3 +38,9 @@ set cpoptions+=$
 " Disable swapfile and backup
 set nobackup
 set noswapfile
+
+" Enable Javascript auto-completion
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+
+" Use CSS editing capabilities in LESS files
+au BufNewFile,BufRead *.less set filetype=css
