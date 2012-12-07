@@ -18,11 +18,17 @@ export PATH=/Applications/Adobe\ Flash\ Builder\ 4.5/player/mac/10.2/Flash\ Play
 # using Adobe Desktop Launcher from the command-line
 export PATH=/Applications/Adobe\ Flash\ Builder\ 4.5/sdks/4.5.0/bin:$PATH
 
+# add Elastic MapReduce CLI tools:
+export PATH=/Users/vtsvetkov/Applications/elastic-mapreduce-ruby:$PATH
+
+# add S3cmd command line tools:
+export PATH=/Users/vtsvetkov/Applications/s3cmd-1.1.0-beta3:$PATH
+
 # Java home
 export JAVA_HOME=/Library/Java/Home
 
 # increase the maven heap
-export MAVEN_OPTS=-Xmx1024m
+export MAVEN_OPTS="-Xms512m -Xmx1536m"
 
 # colorize the terminal
 export CLICOLOR=1;
