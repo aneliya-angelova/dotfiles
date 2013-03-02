@@ -44,3 +44,7 @@ autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 
 " Use CSS editing capabilities in LESS files
 au BufNewFile,BufRead *.less set filetype=css
+
+" Enable .viminfo to save Clojure classpath across sessions
+set viminfo+=!
+

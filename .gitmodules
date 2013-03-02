@@ -13,3 +13,12 @@
 [submodule "vim/bundle/fugitive"]
 	path = vim/bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/vim-foreplay"]
+	path = vim/bundle/vim-foreplay
+	url = git://github.com/tpope/vim-foreplay.git
+[submodule "vim/bundle/vim-classpath"]
+	path = vim/bundle/vim-classpath
+	url = git://github.com/tpope/vim-classpath.git
+[submodule "vim/bundle/vim-closure-static"]
+	path = vim/bundle/vim-closure-static
+	url = git://github.com/guns/vim-clojure-static.git
