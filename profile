@@ -24,6 +24,9 @@ export PATH=/Users/vtsvetkov/Applications/elastic-mapreduce-ruby:$PATH
 # add S3cmd command line tools:
 export PATH=/Users/vtsvetkov/Applications/s3cmd-1.1.0-beta3:$PATH
 
+# add the Rivinet command line tools:
+export PATH=/Users/vtsvetkov/git/rivinet/map-reduce/src/main/bash:$PATH
+
 # Java home
 export JAVA_HOME=/Library/Java/Home
 
