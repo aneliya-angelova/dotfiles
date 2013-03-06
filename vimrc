@@ -48,3 +48,5 @@ au BufNewFile,BufRead *.less set filetype=css
 " Enable .viminfo to save Clojure classpath across sessions
 set viminfo+=!
 
+" Powerline settings
+" set rtp+=~/dotfiles/vim/bundle/powerline/powerline/bindings/vim

@@ -39,3 +39,8 @@ export TERM="xterm-256color"
 
 # open files in one instance of MacVim
 alias rvim='mvim --remote-silent '
+
+# bash-completion
+if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+    . /opt/local/etc/profile.d/bash_completion.sh
+fi

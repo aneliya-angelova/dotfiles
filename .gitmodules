@@ -22,3 +22,6 @@
 [submodule "vim/bundle/vim-closure-static"]
 	path = vim/bundle/vim-closure-static
 	url = git://github.com/guns/vim-clojure-static.git
+[submodule "vim/bundle/powerline"]
+	path = vim/bundle/powerline
+	url = git://github.com/Lokaltog/powerline.git
