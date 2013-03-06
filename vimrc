@@ -49,4 +49,4 @@ au BufNewFile,BufRead *.less set filetype=css
 set viminfo+=!
 
 " Powerline settings
-" set rtp+=~/dotfiles/vim/bundle/powerline/powerline/bindings/vim
+set encoding=utf-8
