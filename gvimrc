@@ -13,6 +13,3 @@ set guifont=Source\ Code\ Pro\ Light\ for\ Powerline:h14
 
 " Don't use Aqua scrollbars
 set guioptions-=rL
-
-" Open NERDTree on start
-autocmd VimEnter * NERDTree

@@ -50,3 +50,9 @@ set viminfo+=!
 
 " Powerline settings
 set encoding=utf-8
+
+" Toggle NERDTree on F3
+autocmd VimEnter * nmap <F3> :NERDTreeToggle<CR>
+autocmd VimEnter * imap <F3> <Esc>:NERDTreeToggle<CR>a
+let NERDTreeQuitOnOpen=1
+let NERDTreeWinSize=35
