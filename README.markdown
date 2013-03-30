@@ -13,6 +13,7 @@
     ln -s ~/dotfiles/vimrc ~/.vimrc
     ln -s ~/dotfiles/gvimrc ~/.gvimrc
     ln -s ~/dotfiles/vim ~/.vim
+    ln -s ~/dotfiles/sbtconfig ~/.sbtconfig
 
 ## Detailed Instructions ##
 
@@ -26,7 +27,7 @@ If you're running an **Ubuntu Server** in production you need to do the followin
 
     git clone git://github.com/npacemo/dotfiles.git
 
-#### 2. Add the folliwing lines to the bottom of *~/.profile*: ####
+#### 2. Add the following lines to the bottom of *~/.profile*: ####
 
     # colorize the terminal
     export CLICOLOR=1;
