@@ -31,7 +31,7 @@ export PATH=/Users/vtsvetkov/git/rivinet/map-reduce/src/main/bash:$PATH
 export JAVA_HOME=/Library/Java/Home
 
 # increase the maven heap
-export MAVEN_OPTS="-Xms512m -Xmx1536m"
+export MAVEN_OPTS="-Xms512m -Xmx1536m -XX:MaxPermSize=512m"
 
 # colorize the terminal
 export CLICOLOR=1;
