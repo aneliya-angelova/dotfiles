@@ -1,5 +1,8 @@
 let mapleader = ","
 
+" List of plugins that pathogen will skip loading
+let g:pathogen_disabled = ['vim-classpath']
+
 " Activate pathogen plugin
 call pathogen#infect()
 call pathogen#helptags()
@@ -60,3 +63,7 @@ let NERDTreeWinSize=35
 " Turn on automatic code folding for XML files
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
+
+" Map cpt to run tests in vim-fireplace
+map cpt :w<CR>:Require<CR>:Eval (run-tests)<CR>
+map cpT :w<CR>:Require<CR>:Eval (run-all-tests)<CR>
