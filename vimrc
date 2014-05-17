@@ -7,6 +7,9 @@ let g:pathogen_disabled = ['vim-classpath']
 call pathogen#infect()
 call pathogen#helptags()
 
+" Set shell to use bash, otherwise Fugitive won't work with fish shell
+set shell=/opt/local/bin/bash 
+
 " General appearance
 set showcmd
 set laststatus=2
