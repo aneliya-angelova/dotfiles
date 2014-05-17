@@ -45,9 +45,6 @@ set cpoptions+=$
 set nobackup
 set noswapfile
 
-" Enable Javascript auto-completion
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-
 " Use CSS editing capabilities in LESS files
 au BufNewFile,BufRead *.less set filetype=css
 
@@ -70,3 +67,7 @@ au FileType xml setlocal foldmethod=syntax
 " Map cpt to run tests in vim-fireplace
 map cpt :w<CR>:Require<CR>:Eval (run-tests)<CR>
 map cpT :w<CR>:Require<CR>:Eval (run-all-tests)<CR>
+
+" Enable tern_for_vim shortcuts
+let g:tern_map_keys=1
+let g:tern_show_argument_hints='on_hold'
