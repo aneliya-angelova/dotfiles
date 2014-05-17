@@ -10,7 +10,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/opt/subversion/bin:$PATH
 
 # using the MAMP php CLI, instead of the default Mac php
-export PATH=/Applications/MAMP/bin/php5.2/bin/:$PATH
+export PATH=/Applications/MAMP/bin/php5.2/bin:$PATH
 
 # using Flash Player from the command-line
 export PATH=/Applications/Adobe\ Flash\ Builder\ 4.5/player/mac/10.2/Flash\ Player\ Debugger.app/Contents/MacOS:$PATH
@@ -43,7 +43,15 @@ alias rvim='mvim --remote-silent '
 # set scala home
 export SCALA_HOME=/usr/local/bin/scala
 
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Use bash-completion, if available
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
 # bash-completion
 if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
     . /opt/local/etc/profile.d/bash_completion.sh
 fi
+
