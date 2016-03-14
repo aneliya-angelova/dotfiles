@@ -37,13 +37,16 @@ export MAVEN_OPTS="-Xms512m -Xmx1536m -XX:MaxPermSize=512m"
 export CLICOLOR=1;
 export TERM="xterm-256color"
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # open files in one instance of MacVim
 alias rvim='mvim --remote-silent '
 
 # set scala home
 export SCALA_HOME=/usr/local/bin/scala
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Use bash-completion, if available
 if [ -f $(brew --prefix)/etc/bash_completion ]; then

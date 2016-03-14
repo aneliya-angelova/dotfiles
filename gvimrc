@@ -4,7 +4,7 @@ set guioptions+=c
 
 " General appearance
 " set guifont=LetterGothicMT:h14
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h13
 " set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
 " set guifont=Droid\ Sans\ Mono\ for\ Powerline:h14
 " set guifont=Inconsolata\ for\ Powerline:h14
