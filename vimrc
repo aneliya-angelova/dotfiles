@@ -71,3 +71,6 @@ map cpT :w<CR>:Require<CR>:Eval (run-all-tests)<CR>
 " Enable tern_for_vim shortcuts
 let g:tern_map_keys=1
 let g:tern_show_argument_hints='on_hold'
+
+" Allow backspacing
+set backspace=indent,eol,start
