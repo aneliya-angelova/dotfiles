@@ -1,14 +1,8 @@
 let mapleader = ","
 
-" List of plugins that pathogen will skip loading
-let g:pathogen_disabled = ['vim-classpath']
-
 " Activate pathogen plugin
-call pathogen#infect()
-call pathogen#helptags()
-
-" Set shell to use bash, otherwise Fugitive won't work with fish shell
-set shell=/opt/local/bin/bash 
+execute pathogen#infect()
+execute pathogen#helptags()
 
 " General appearance
 set showcmd
@@ -17,13 +11,11 @@ set listchars=tab:▸\ ,eol:¬
 set number
 syntax on
 set hlsearch
-colorscheme solarized
-set background=dark
 
 " Indendation
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 
 " Enable file-type detection
@@ -48,9 +40,6 @@ set noswapfile
 " Use CSS editing capabilities in LESS files
 au BufNewFile,BufRead *.less set filetype=css
 
-" Enable .viminfo to save Clojure classpath across sessions
-set viminfo+=!
-
 " Powerline settings
 set encoding=utf-8
 
@@ -63,14 +52,6 @@ let NERDTreeWinSize=35
 " Turn on automatic code folding for XML files
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
-
-" Map cpt to run tests in vim-fireplace
-map cpt :w<CR>:Require<CR>:Eval (run-tests)<CR>
-map cpT :w<CR>:Require<CR>:Eval (run-all-tests)<CR>
-
-" Enable tern_for_vim shortcuts
-let g:tern_map_keys=1
-let g:tern_show_argument_hints='on_hold'
 
 " Allow backspacing
 set backspace=indent,eol,start

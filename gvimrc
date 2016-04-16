@@ -4,12 +4,12 @@ set guioptions+=c
 
 " General appearance
 " set guifont=LetterGothicMT:h14
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h13
+" set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h13
 " set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
 " set guifont=Droid\ Sans\ Mono\ for\ Powerline:h14
 " set guifont=Inconsolata\ for\ Powerline:h14
 " set guifont=Menlo:h14
 " set guifont=Meslo\ LG\ M\ DZ\ Regular\ for\ Powerline:h14
 
-" Don't use Aqua scrollbars
+" Don't use scrollbars
 set guioptions-=rL
