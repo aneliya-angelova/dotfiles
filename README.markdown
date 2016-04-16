@@ -21,7 +21,7 @@ Create the symlinks:
     ln -s ~/dotfiles/vimrc ~/.vimrc
     ln -s ~/dotfiles/gvimrc ~/.gvimrc
     ln -s ~/dotfiles/vim ~/.vim
-    ln -s ~/dotfiles/vim ~/.vim
+    ln -s ~/dotfiles/vim ~/_vimfiles
 
 #### Update VIM plugins:
 
